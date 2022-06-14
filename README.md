@@ -16,6 +16,12 @@ This repository contains the following computational notebooks and supporting fi
 Summer School participants will be provided instructions for accessing a JupyterLab server.  
 Others may install Python 3 and Jupyter (or JupyterLab) on their local computer or use [Google Colab](https://colab.research.google.com/) to open the Jupyter notebooks.
 
+RegularizedRegressionAnswers.ipynb requires a recent version of matplotlib.  If you try to run the notebook on your own machine and get an error message, then try
+```shell
+pip install matplotlib>=3.5
+```
+and see if that fixes it.
+
 ## Contributing
 We welcome people filing issues and/or opening pull requests to improve these labs for future summer schools and potentialy other uses.  
 
